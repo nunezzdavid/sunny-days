@@ -31,8 +31,8 @@ This assignment is mainly retrieving data from another application's API and usi
 
 ## Links
 
-- Deployed Webpage: 
-- GitHub Repo Page: 
+- Deployed Webpage: https://nunezzdavid.github.io/sunny-days
+- GitHub Repo Page: https://github.com/nunezzdavid/sunny-days
 
 ## Credits
 

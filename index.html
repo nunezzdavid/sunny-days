@@ -9,33 +9,33 @@
     <title>Sunny Days</title>
 </head>
 <body>
-    <header>
+    <header class="p-3 text-center text-black">
         <h1>Weather Dashboard</h1>
     </header>
-    <main>
-        <section>
-            <h2>Enter a City:</h2>
-            <input type="text" name="city-search" id="search-box">
-            <button type="submit">Search</button>
-            <ul></ul>
+    <main class="col-12 flex-container row">
+        <section  class="col-12 col-md-3 col-lg-3 m-2">
+            <h2 class="text-center">Enter a City:</h2>
+            <input type="text" name="city-search" id="search-box" class="form-control m-2 p-1 text-center">
+            <button id="search-btn" type="submit" class="btn btn-primary m-2 col-12">Search</button>
+            <ul id="search"></ul>
         </section>
-        <section>
-            <h2></h2>
-            <div>
-                <h2></h2>
+        <section id="display" class="flex-container row col-md-9 col-lg-9">
+            <h2 class="m-2 p-2"></h2>
+            <div id="today" class="card col-12 col-md-12 col-lg-12 p-2 mb-1">
+                <h2 class="mb-1"></h2>
                 <img src="" alt="weather picture">
                 <ul>
                     <li></li>
                     <li></li>
                     <li></li>
                 </ul>
-                <p></p>
-                <h3></h3>
+                <p id="quote" class="text-center"></p>
+                <h3 class="text-center"></h3>
             </div>
-            <div>
-                <h2>5-Day Forecast</h2>
-                <div>
-                    <h3></h3>
+            <div id="forecast" class="row col-12 col-md-12 col-lg-12 p-4">
+                <h2 class="text-center mb-2">5-Day Forecast</h2>
+                <div class="card col-5 col-md col-lg m-1">
+                    <h3 class="text-center"></h3>
                     <img src="" alt="weather picture">
                     <ul>
                         <li></li>
@@ -43,8 +43,8 @@
                         <li></li>
                     </ul>
                 </div>
-                <div>
-                    <h3></h3>
+                <div class="card col-5 col-md col-lg m-1">
+                    <h3 class="text-center"></h3>
                     <img src="" alt="weather picture">
                     <ul>
                         <li></li>
@@ -52,8 +52,8 @@
                         <li></li>
                     </ul>
                 </div>
-                <div>
-                    <h3></h3>
+                <div class="card col-5 col-md col-lg m-1">
+                    <h3 class="text-center"></h3>
                     <img src="" alt="weather picture">
                     <ul>
                         <li></li>
@@ -61,8 +61,8 @@
                         <li></li>
                     </ul>
                 </div>
-                <div>
-                    <h3></h3>
+                <div class="card col-5 col-md col-lg m-1">
+                    <h3 class="text-center"></h3>
                     <img src="" alt="weather picture">
                     <ul>
                         <li></li>
@@ -70,8 +70,8 @@
                         <li></li>
                     </ul>
                 </div>
-                <div>
-                    <h3></h3>
+                <div class="card col-5 col-md col-lg m-1">
+                    <h3 class="text-center"></h3>
                     <img src="" alt="weather picture">
                     <ul>
                         <li></li>
