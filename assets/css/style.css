@@ -57,9 +57,17 @@ h3 {
     font-size: 1rem;
 }
 
-#quote {
-    font-size: 15px;
-    font-weight: 300;
-    font-family: Helvetica, sans-serif;
-    font-style: italic;
+#today {
+    text-align: center;
+    display: flex;
 }
+
+#pic-today {
+    margin: auto;
+}
+
+#today ul {
+    padding-left: 0%;
+    margin-bottom: 0%;
+}
+
