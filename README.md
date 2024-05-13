@@ -27,7 +27,7 @@ This assignment is mainly retrieving data from another application's API and usi
 
 ## Usage
 
-![Alt text]()
+![Alt text](./assets/images/Sunny%20Days.gif)
 
 ## Links
 

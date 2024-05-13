@@ -57,9 +57,17 @@ h3 {
     font-size: 1rem;
 }
 
+.text-center {
+    color: black;
+}
+
 #today {
     text-align: center;
     display: flex;
+}
+
+#today h2 {
+    color: black;
 }
 
 #pic-today {
